@@ -7,6 +7,7 @@
     <UserSecretsId>4aa18ad9-b537-488d-aef0-84225ea29038</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,8 +19,6 @@
   <ItemGroup>
     <Folder Include="Products\DeleteProduct\" />
     <Folder Include="Products\GetProductByCategory\" />
-    <Folder Include="Products\GetProductById\" />
-    <Folder Include="Products\GetProducts\" />
     <Folder Include="Products\UpdateProduct\" />
   </ItemGroup>
 
